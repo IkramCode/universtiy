@@ -1,0 +1,74 @@
+def encrypt_autokey(plaintext, key):
+    plaintext = ''.join(
+        char.upper() for char in plaintext if char.isalpha()
+    )
+
+    key = ''.join(
+        char.upper() for char in key if char.isalpha()
+    )
+
+    # Generate key stream
+    keystream = key
+
+    while len(keystream) < len(plaintext):
+        keystream += plaintext
+
+    # Make sure key stream is exactly the plaintext length
+    keystream = keystream[:len(plaintext)]
+
+    ciphertext = ""
+
+    for i in range(len(plaintext)):
+
+        p = ord(plaintext[i]) - ord('A')
+        k = ord(keystream[i]) - ord('A')
+
+        c = (p + k) % 26
+
+        ciphertext += chr(c + ord('A'))
+
+    return ciphertext, keystream
+
+
+def decrypt_autokey(ciphertext, key):
+    ciphertext = ''.join(
+        char.upper() for char in ciphertext if char.isalpha()
+    )
+
+    key = ''.join(
+        char.upper() for char in key if char.isalpha()
+    )
+
+    plaintext = ""
+
+    for i in range(len(ciphertext)):
+
+        # Initial keyword
+        if i < len(key):
+            k = ord(key[i]) - ord('A')
+
+        # Previously recovered plaintext
+        else:
+            k = ord(plaintext[i - len(key)]) - ord('A')
+
+        c = ord(ciphertext[i]) - ord('A')
+
+        p = (c - k) % 26
+
+        plaintext += chr(p + ord('A'))
+
+    return plaintext
+
+
+# Main program
+plaintext = input("Enter plaintext: ")
+key = input("Enter initial keyword: ")
+
+ciphertext, keystream = encrypt_autokey(plaintext, key)
+
+print("\nGenerated Key Stream:", keystream)
+print("Ciphertext:", ciphertext)
+
+decrypted = decrypt_autokey(ciphertext, key)
+
+print("Decrypted text:", decrypted)

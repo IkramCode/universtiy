@@ -1,0 +1,893 @@
+{
+  "name": "bleach",
+  "version": "6.4.0",
+  "build": "py314hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "bleach-6.4.0-py314hca03da5_0.conda",
+  "md5": "4d2e87456491e6cd0b8373f1f99bf990",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/bleach-6.4.0-py314hca03da5_0.conda",
+  "sha256": "e164f9354d8a165e1efdd0d67c202aa1434493fb81e78bee7ea9c77fe41a7d89",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "webencodings"
+  ],
+  "constrains": [
+    "tinycss2 >=1.1.0"
+  ],
+  "license": "Apache-2.0",
+  "timestamp": 1782390536000,
+  "size": 354221,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/Users/gapple/miniconda3/pkgs/bleach-6.4.0-py314hca03da5_0.conda",
+  "extracted_package_dir": "/Users/gapple/miniconda3/pkgs/bleach-6.4.0-py314hca03da5_0",
+  "files": [
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/licenses/bleach/_vendor/html5lib-1.1.dist-info/LICENSE",
+    "lib/python3.14/site-packages/bleach-6.4.0.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/bleach/__init__.py",
+    "lib/python3.14/site-packages/bleach/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/callbacks.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/css_sanitizer.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/html5lib_shim.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/linkifier.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/parse_shim.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/sanitizer.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/__pycache__/six_shim.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/README.rst",
+    "lib/python3.14/site-packages/bleach/_vendor/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/__pycache__/parse.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/LICENSE",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/METADATA",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/RECORD",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/WHEEL",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_ihatexml.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_inputstream.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_tokenizer.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/constants.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/html5parser.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/serializer.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_ihatexml.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_inputstream.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_tokenizer.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/_base.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/py.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/_base.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/py.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/_utils.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/constants.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/alphabeticalattributes.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/base.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/inject_meta_charset.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/lint.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/optionaltags.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/sanitizer.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/whitespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/alphabeticalattributes.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/base.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/inject_meta_charset.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/lint.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/optionaltags.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/sanitizer.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/whitespace.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/html5parser.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/serializer.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/genshi.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/sax.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/genshi.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/sax.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/base.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/dom.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree_lxml.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/base.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/dom.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/etree.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/etree_lxml.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__init__.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/base.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/dom.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree_lxml.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/genshi.cpython-314.pyc",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/base.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/dom.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/etree.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/etree_lxml.py",
+    "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/genshi.py",
+    "lib/python3.14/site-packages/bleach/_vendor/parse.py",
+    "lib/python3.14/site-packages/bleach/_vendor/parse.py.SHA256SUM",
+    "lib/python3.14/site-packages/bleach/_vendor/vendor.txt",
+    "lib/python3.14/site-packages/bleach/_vendor/vendor_install.sh",
+    "lib/python3.14/site-packages/bleach/callbacks.py",
+    "lib/python3.14/site-packages/bleach/css_sanitizer.py",
+    "lib/python3.14/site-packages/bleach/html5lib_shim.py",
+    "lib/python3.14/site-packages/bleach/linkifier.py",
+    "lib/python3.14/site-packages/bleach/parse_shim.py",
+    "lib/python3.14/site-packages/bleach/sanitizer.py",
+    "lib/python3.14/site-packages/bleach/six_shim.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "757bfd0f144af9186a9bd94f06014963f5b0919a4e124fa55e9737a8c8981764",
+        "size_in_bytes": 32173,
+        "sha256_in_prefix": "757bfd0f144af9186a9bd94f06014963f5b0919a4e124fa55e9737a8c8981764"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "49ff924be2b1dc6de1e52d7788b66f95c117e6494b0f702a77c4030902550e8a",
+        "size_in_bytes": 8945,
+        "sha256_in_prefix": "49ff924be2b1dc6de1e52d7788b66f95c117e6494b0f702a77c4030902550e8a"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b7c1f2c7a2abbf97e860e2698ed5e9f899debe542afc4646168e9cab921bfd37",
+        "size_in_bytes": 81,
+        "sha256_in_prefix": "b7c1f2c7a2abbf97e860e2698ed5e9f899debe542afc4646168e9cab921bfd37"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bec2238c149a632b8fb26813f687aceabab80327f3270769c2c16157883d3130",
+        "size_in_bytes": 569,
+        "sha256_in_prefix": "bec2238c149a632b8fb26813f687aceabab80327f3270769c2c16157883d3130"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/licenses/bleach/_vendor/html5lib-1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "16a39991619e92f18680932da2a9199fdf7d95df3ecaedc52ea06218aabafd6f",
+        "size_in_bytes": 1084,
+        "sha256_in_prefix": "16a39991619e92f18680932da2a9199fdf7d95df3ecaedc52ea06218aabafd6f"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach-6.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "75cbf4c0a232481d333230045cbc18e15d3edc837d519406013d700e67d02026",
+        "size_in_bytes": 7,
+        "sha256_in_prefix": "75cbf4c0a232481d333230045cbc18e15d3edc837d519406013d700e67d02026"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a1e7e550782e27aadd1dab0183e11fd8695d90ba612b92d87aa3fedcecd8212",
+        "size_in_bytes": 3647,
+        "sha256_in_prefix": "7a1e7e550782e27aadd1dab0183e11fd8695d90ba612b92d87aa3fedcecd8212"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1987d2dcd95dcd7e76e7cb81938c4b1975b1ceefaab715e5091f2d344e016df2",
+        "size_in_bytes": 3630,
+        "sha256_in_prefix": "1987d2dcd95dcd7e76e7cb81938c4b1975b1ceefaab715e5091f2d344e016df2"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/callbacks.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "17acda9f3d10fcd342f8fe13a8df5442d1566bf57eb29e64baf46287ab2d181b",
+        "size_in_bytes": 1304,
+        "sha256_in_prefix": "17acda9f3d10fcd342f8fe13a8df5442d1566bf57eb29e64baf46287ab2d181b"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/css_sanitizer.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cc3e7b5a3c762bd7fae1c51f3a69692da75785d79977adf7ab1d9d913fab72f",
+        "size_in_bytes": 2538,
+        "sha256_in_prefix": "4cc3e7b5a3c762bd7fae1c51f3a69692da75785d79977adf7ab1d9d913fab72f"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/html5lib_shim.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e1088ee07b65344fed6499fd8f08fbdcb2e950cb6d3ab63b42b0128fcc33435",
+        "size_in_bytes": 20417,
+        "sha256_in_prefix": "6e1088ee07b65344fed6499fd8f08fbdcb2e950cb6d3ab63b42b0128fcc33435"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/linkifier.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e9712b4528697837781691eb08755a56ad38140ad40dc614aa155492662d5d4",
+        "size_in_bytes": 18924,
+        "sha256_in_prefix": "2e9712b4528697837781691eb08755a56ad38140ad40dc614aa155492662d5d4"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/parse_shim.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "45efe609173cd41d4a0fc22bcdaf0bc6e8b649347e6e6afb874b0e219fbce455",
+        "size_in_bytes": 204,
+        "sha256_in_prefix": "45efe609173cd41d4a0fc22bcdaf0bc6e8b649347e6e6afb874b0e219fbce455"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/sanitizer.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "c52cb62fd95dfe003b34e19951093ee8b7fdd608e178ec4572c786b3e6a651fe",
+        "size_in_bytes": 18341,
+        "sha256_in_prefix": "c52cb62fd95dfe003b34e19951093ee8b7fdd608e178ec4572c786b3e6a651fe"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/__pycache__/six_shim.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "42cea618539486daba4f8c6360e31cec90e65e3c188a4929ff7950f091de9767",
+        "size_in_bytes": 606,
+        "sha256_in_prefix": "42cea618539486daba4f8c6360e31cec90e65e3c188a4929ff7950f091de9767"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/README.rst",
+        "path_type": "hardlink",
+        "sha256": "79778a4f625d641e165f592e8536bc5bd269f555edc08285c68e5150be5ec663",
+        "size_in_bytes": 2160,
+        "sha256_in_prefix": "79778a4f625d641e165f592e8536bc5bd269f555edc08285c68e5150be5ec663"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e4d6a3ba0249f3f1c771becfb7311c30c2a68fb2e2d4ddd8125229a973cf2aa",
+        "size_in_bytes": 154,
+        "sha256_in_prefix": "7e4d6a3ba0249f3f1c771becfb7311c30c2a68fb2e2d4ddd8125229a973cf2aa"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/__pycache__/parse.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec13d145c0280bb2e9a64f8ba7d920bf21bcfa7a62da353bd73ad67a2ec6adb6",
+        "size_in_bytes": 44891,
+        "sha256_in_prefix": "ec13d145c0280bb2e9a64f8ba7d920bf21bcfa7a62da353bd73ad67a2ec6adb6"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "0eb3403227e80e9b90c899fe296f87e8af13b766b9aca9d5d94178f8346b1942",
+        "size_in_bytes": 983,
+        "sha256_in_prefix": "0eb3403227e80e9b90c899fe296f87e8af13b766b9aca9d5d94178f8346b1942"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "16a39991619e92f18680932da2a9199fdf7d95df3ecaedc52ea06218aabafd6f",
+        "size_in_bytes": 1084,
+        "sha256_in_prefix": "16a39991619e92f18680932da2a9199fdf7d95df3ecaedc52ea06218aabafd6f"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "637c3e9ddff6d87427411cb7cb2a55b15fe47b6145f78b940f8faf1a97360e72",
+        "size_in_bytes": 16076,
+        "sha256_in_prefix": "637c3e9ddff6d87427411cb7cb2a55b15fe47b6145f78b940f8faf1a97360e72"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bbecbf5b996176c1c2d4e48c9c0e1b0a2dfed7522043f140216eaf88cbbcfcb0",
+        "size_in_bytes": 3486,
+        "sha256_in_prefix": "bbecbf5b996176c1c2d4e48c9c0e1b0a2dfed7522043f140216eaf88cbbcfcb0"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110,
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib-1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5c45fa087a6c9129af8c9078b4fea6e10e4d6178487ffd1c78c7343cd6f324f4",
+        "size_in_bytes": 9,
+        "sha256_in_prefix": "5c45fa087a6c9129af8c9078b4fea6e10e4d6178487ffd1c78c7343cd6f324f4"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a569d871f67af7034badd40bedba6be3d1548bc3bcc342a1282387b324606064",
+        "size_in_bytes": 1143,
+        "sha256_in_prefix": "a569d871f67af7034badd40bedba6be3d1548bc3bcc342a1282387b324606064"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d6a684a7e01c2f303a9324859890aa03d6a2b02a54961b45656e3597869f00e",
+        "size_in_bytes": 1275,
+        "sha256_in_prefix": "0d6a684a7e01c2f303a9324859890aa03d6a2b02a54961b45656e3597869f00e"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_ihatexml.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c1f62e93be6d70abfbdb5a83ac1fef6edd6f2ae1404307cdc8aca89ec76c53e",
+        "size_in_bytes": 18175,
+        "sha256_in_prefix": "7c1f62e93be6d70abfbdb5a83ac1fef6edd6f2ae1404307cdc8aca89ec76c53e"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_inputstream.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "74aa01de485345b885cdb0a0f5d3b0337b1391c976343dbea49b50c57e599026",
+        "size_in_bytes": 37200,
+        "sha256_in_prefix": "74aa01de485345b885cdb0a0f5d3b0337b1391c976343dbea49b50c57e599026"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_tokenizer.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cc452ea87144f90630cc06892667fd588471a341694c9cb1d2667738b77d0b1",
+        "size_in_bytes": 94350,
+        "sha256_in_prefix": "9cc452ea87144f90630cc06892667fd588471a341694c9cb1d2667738b77d0b1"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/_utils.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3afef1d4816630b51505c0343e1c2c98f358504676ffa5839f397b41096d75ef",
+        "size_in_bytes": 7157,
+        "sha256_in_prefix": "3afef1d4816630b51505c0343e1c2c98f358504676ffa5839f397b41096d75ef"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/constants.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb75c7291735a8a4cd3054101964dc3e73ceda7cb309856ed337633552854621",
+        "size_in_bytes": 118540,
+        "sha256_in_prefix": "fb75c7291735a8a4cd3054101964dc3e73ceda7cb309856ed337633552854621"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/html5parser.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e66bf179cca63d0b8633394eac92c2c76e5d7e16fecb31af2e27effe0dcc7747",
+        "size_in_bytes": 161801,
+        "sha256_in_prefix": "e66bf179cca63d0b8633394eac92c2c76e5d7e16fecb31af2e27effe0dcc7747"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/__pycache__/serializer.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d5ee15d3491062dd4d2b2ad7c107607b97f1f18f56250f59537d12aa268d068",
+        "size_in_bytes": 16557,
+        "sha256_in_prefix": "3d5ee15d3491062dd4d2b2ad7c107607b97f1f18f56250f59537d12aa268d068"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_ihatexml.py",
+        "path_type": "hardlink",
+        "sha256": "89f3b017ba57aa6c938485dcddba1673deace0c0decea46b455a7b1700d8505b",
+        "size_in_bytes": 16728,
+        "sha256_in_prefix": "89f3b017ba57aa6c938485dcddba1673deace0c0decea46b455a7b1700d8505b"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_inputstream.py",
+        "path_type": "hardlink",
+        "sha256": "e3af09e321526c8a89699b3db4ab5d62387d6f5fcd48e57663a9f85c8b735f47",
+        "size_in_bytes": 32318,
+        "sha256_in_prefix": "e3af09e321526c8a89699b3db4ab5d62387d6f5fcd48e57663a9f85c8b735f47"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "a81f2824fa8916deb38b0a9ddf9cbbadb803036518d8181aa95164b6b97725fa",
+        "size_in_bytes": 77040,
+        "sha256_in_prefix": "a81f2824fa8916deb38b0a9ddf9cbbadb803036518d8181aa95164b6b97725fa"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9ea7e03bdd74df6f411152794f8a6c57042d8ddda2272117436f97f1cd58c705",
+        "size_in_bytes": 109,
+        "sha256_in_prefix": "9ea7e03bdd74df6f411152794f8a6c57042d8ddda2272117436f97f1cd58c705"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "9845be268f411e2c8cdc96c474a1b2f814b4573c8741c22ed1ffbb8fbf12d68b",
+        "size_in_bytes": 330,
+        "sha256_in_prefix": "9845be268f411e2c8cdc96c474a1b2f814b4573c8741c22ed1ffbb8fbf12d68b"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/_base.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e1b6cf2b334a8ef085f549d8ac5425124b3f06dd4a90d2f4f145dbeee909f0c",
+        "size_in_bytes": 2100,
+        "sha256_in_prefix": "8e1b6cf2b334a8ef085f549d8ac5425124b3f06dd4a90d2f4f145dbeee909f0c"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/__pycache__/py.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e77af7378df76f4282f1fd94a9c59aa55d66aeebcda91b105eebebefc0e2fd1e",
+        "size_in_bytes": 3884,
+        "sha256_in_prefix": "e77af7378df76f4282f1fd94a9c59aa55d66aeebcda91b105eebebefc0e2fd1e"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/_base.py",
+        "path_type": "hardlink",
+        "sha256": "09ac9b63232ba3cb844506236f2dad4de4946ad9d60df5aba1437d37b7adcb9c",
+        "size_in_bytes": 1013,
+        "sha256_in_prefix": "09ac9b63232ba3cb844506236f2dad4de4946ad9d60df5aba1437d37b7adcb9c"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_trie/py.py",
+        "path_type": "hardlink",
+        "sha256": "1446a120010b28792ad7241361dfba9729ce2d7c0679bceece693074a87189a1",
+        "size_in_bytes": 1775,
+        "sha256_in_prefix": "1446a120010b28792ad7241361dfba9729ce2d7c0679bceece693074a87189a1"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0dbddc1f8b3f00f2e4a92ab3462272999d0d8bf74498666a28ceabecbc96b22c",
+        "size_in_bytes": 4931,
+        "sha256_in_prefix": "0dbddc1f8b3f00f2e4a92ab3462272999d0d8bf74498666a28ceabecbc96b22c"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/constants.py",
+        "path_type": "hardlink",
+        "sha256": "a4e1314ebab0555dbef93627798cc4bcf9e205368589fad56ca4e001a1e1c616",
+        "size_in_bytes": 83476,
+        "sha256_in_prefix": "a4e1314ebab0555dbef93627798cc4bcf9e205368589fad56ca4e001a1e1c616"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ce73d466ec1baf48f0d953d3dbe2715cdb6df81128886ce19a1616f94ad31ac",
+        "size_in_bytes": 171,
+        "sha256_in_prefix": "8ce73d466ec1baf48f0d953d3dbe2715cdb6df81128886ce19a1616f94ad31ac"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/alphabeticalattributes.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "fad754ad5390778927f67ad1516be408370172d5232aeabbadcc9bc2565c2ccd",
+        "size_in_bytes": 1770,
+        "sha256_in_prefix": "fad754ad5390778927f67ad1516be408370172d5232aeabbadcc9bc2565c2ccd"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/base.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bb0ecb9c56e1d41e3e0f108c5aae08864da389fd6cf26c81f8661d300e0067e",
+        "size_in_bytes": 1080,
+        "sha256_in_prefix": "1bb0ecb9c56e1d41e3e0f108c5aae08864da389fd6cf26c81f8661d300e0067e"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/inject_meta_charset.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "90afeb1d5061f30c8f49316b06def08c19845e72df24a49cf004b98f804eea8e",
+        "size_in_bytes": 3211,
+        "sha256_in_prefix": "90afeb1d5061f30c8f49316b06def08c19845e72df24a49cf004b98f804eea8e"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/lint.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "89633c014c40cd5e8b84be612f59e246d77fc3b2ef95360cb4783ac712481101",
+        "size_in_bytes": 4678,
+        "sha256_in_prefix": "89633c014c40cd5e8b84be612f59e246d77fc3b2ef95360cb4783ac712481101"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/optionaltags.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfe8770c36979b6a26539f9ff3385d0aaef1e6e71b7bfa7215068f896f7e42d3",
+        "size_in_bytes": 4613,
+        "sha256_in_prefix": "bfe8770c36979b6a26539f9ff3385d0aaef1e6e71b7bfa7215068f896f7e42d3"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/sanitizer.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e389cd7dd9835bbf15729191eb995fc426d6c36bdd9c81f8ef6011a2d0eae49",
+        "size_in_bytes": 30475,
+        "sha256_in_prefix": "7e389cd7dd9835bbf15729191eb995fc426d6c36bdd9c81f8ef6011a2d0eae49"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/__pycache__/whitespace.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3950cd3ac5320be616aef8e2384111465ca65d2912ee1bc43b1a8c0f41621d31",
+        "size_in_bytes": 2089,
+        "sha256_in_prefix": "3950cd3ac5320be616aef8e2384111465ca65d2912ee1bc43b1a8c0f41621d31"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/alphabeticalattributes.py",
+        "path_type": "hardlink",
+        "sha256": "95589973624c09c9578bfe6076ebe6773ad1c6d3b95e8f4e3676c70550acca45",
+        "size_in_bytes": 919,
+        "sha256_in_prefix": "95589973624c09c9578bfe6076ebe6773ad1c6d3b95e8f4e3676c70550acca45"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/base.py",
+        "path_type": "hardlink",
+        "sha256": "cfe214f590188e9b15b2a995b7b92e582eb78d1d7584332be8256bbee6a8f16d",
+        "size_in_bytes": 286,
+        "sha256_in_prefix": "cfe214f590188e9b15b2a995b7b92e582eb78d1d7584332be8256bbee6a8f16d"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/inject_meta_charset.py",
+        "path_type": "hardlink",
+        "sha256": "7a00d75041d79801bde74e31cf42ba00b0e0624bd4ac2daad7961455e3655508",
+        "size_in_bytes": 2945,
+        "sha256_in_prefix": "7a00d75041d79801bde74e31cf42ba00b0e0624bd4ac2daad7961455e3655508"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/lint.py",
+        "path_type": "hardlink",
+        "sha256": "42a9ed61fb4fa1958d1ef298824f97d6b09fbe5806c414172af9a53850d1a677",
+        "size_in_bytes": 3643,
+        "sha256_in_prefix": "42a9ed61fb4fa1958d1ef298824f97d6b09fbe5806c414172af9a53850d1a677"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/optionaltags.py",
+        "path_type": "hardlink",
+        "sha256": "f25593ef927468138798f81f9aa4c749f3e93cca74d53f3834abb409179dc5c1",
+        "size_in_bytes": 10588,
+        "sha256_in_prefix": "f25593ef927468138798f81f9aa4c749f3e93cca74d53f3834abb409179dc5c1"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/sanitizer.py",
+        "path_type": "hardlink",
+        "sha256": "321787d683b86b566f03546eb44388faee8d75d5ff59a8ce741b102d2b14197f",
+        "size_in_bytes": 26950,
+        "sha256_in_prefix": "321787d683b86b566f03546eb44388faee8d75d5ff59a8ce741b102d2b14197f"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/filters/whitespace.py",
+        "path_type": "hardlink",
+        "sha256": "f1e5aa671778502e33945196ea2c98e9ffb6bae4fca4e09200b737219b7bfede",
+        "size_in_bytes": 1214,
+        "sha256_in_prefix": "f1e5aa671778502e33945196ea2c98e9ffb6bae4fca4e09200b737219b7bfede"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/html5parser.py",
+        "path_type": "hardlink",
+        "sha256": "3b2752d583581604cc7ce1d73d55ce7dc143e05755d7ccd79b8156e68aa2dfb9",
+        "size_in_bytes": 117164,
+        "sha256_in_prefix": "3b2752d583581604cc7ce1d73d55ce7dc143e05755d7ccd79b8156e68aa2dfb9"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "d8f2817f96966b964ea29c45f66a45bb07e79065a59e376e0919752e71b87dd8",
+        "size_in_bytes": 15759,
+        "sha256_in_prefix": "d8f2817f96966b964ea29c45f66a45bb07e79065a59e376e0919752e71b87dd8"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7c87223e6add9a06c74ace9c11c1ae65185d62a6072d693617a14f449f66508",
+        "size_in_bytes": 650,
+        "sha256_in_prefix": "d7c87223e6add9a06c74ace9c11c1ae65185d62a6072d693617a14f449f66508"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "0dc6d03e39a888545320ec53e9f31c37113f5abdff26a791eb2589f39c6ba3d2",
+        "size_in_bytes": 961,
+        "sha256_in_prefix": "0dc6d03e39a888545320ec53e9f31c37113f5abdff26a791eb2589f39c6ba3d2"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/genshi.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "3eb9c46f6d8491b056a968310650d1ecfee3105898fc15e3fbfb9d7635d6bca5",
+        "size_in_bytes": 2357,
+        "sha256_in_prefix": "3eb9c46f6d8491b056a968310650d1ecfee3105898fc15e3fbfb9d7635d6bca5"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/__pycache__/sax.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "22bfb5394ea4523f03c079f0f3a2b46d5d8c5bab2e089221b09f844349dd02ea",
+        "size_in_bytes": 2268,
+        "sha256_in_prefix": "22bfb5394ea4523f03c079f0f3a2b46d5d8c5bab2e089221b09f844349dd02ea"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/genshi.py",
+        "path_type": "hardlink",
+        "sha256": "087dbba40b032a6bb864690052bc2dcbbbb429ab862c26512cf33368edcce6fa",
+        "size_in_bytes": 1715,
+        "sha256_in_prefix": "087dbba40b032a6bb864690052bc2dcbbbb429ab862c26512cf33368edcce6fa"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treeadapters/sax.py",
+        "path_type": "hardlink",
+        "sha256": "04a4bcc284139ca8aa79f7c7b310a152a2f8ab6651ff06f97dcf4c277cd00bcb",
+        "size_in_bytes": 1776,
+        "sha256_in_prefix": "04a4bcc284139ca8aa79f7c7b310a152a2f8ab6651ff06f97dcf4c277cd00bcb"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "032b12272bcf7e290230cb1356f6b1c2480389e10b0f975f47c149200baaee16",
+        "size_in_bytes": 3592,
+        "sha256_in_prefix": "032b12272bcf7e290230cb1356f6b1c2480389e10b0f975f47c149200baaee16"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "64cb4454fdd43aaa283ecc4e3cf3b43cc3ad69a92f7df0c01c9911d95ef5a701",
+        "size_in_bytes": 3613,
+        "sha256_in_prefix": "64cb4454fdd43aaa283ecc4e3cf3b43cc3ad69a92f7df0c01c9911d95ef5a701"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/base.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a354c95570cdd7edcc5b69100f5c3e6693147688647a6840524b31853375033",
+        "size_in_bytes": 16591,
+        "sha256_in_prefix": "2a354c95570cdd7edcc5b69100f5c3e6693147688647a6840524b31853375033"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/dom.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "e55ebb518e61d9c28a8ad5c836071b6daae8264cd87b188991e1a57afa0fbb82",
+        "size_in_bytes": 16258,
+        "sha256_in_prefix": "e55ebb518e61d9c28a8ad5c836071b6daae8264cd87b188991e1a57afa0fbb82"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bb2edf25fc70ea89fcf293ce19d4244cd2c9d3d4e658f1ab2effe602aa0a7e7",
+        "size_in_bytes": 21141,
+        "sha256_in_prefix": "2bb2edf25fc70ea89fcf293ce19d4244cd2c9d3d4e658f1ab2effe602aa0a7e7"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/__pycache__/etree_lxml.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c5ae159eaf138f10333f1cc46af48f36b436a8d68123b5fa4764ea786e4405f",
+        "size_in_bytes": 23717,
+        "sha256_in_prefix": "1c5ae159eaf138f10333f1cc46af48f36b436a8d68123b5fa4764ea786e4405f"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/base.py",
+        "path_type": "hardlink",
+        "sha256": "eb77898cf5f027f22984f192f830d830643933c851dddb2ab52be96890dbf2a9",
+        "size_in_bytes": 14565,
+        "sha256_in_prefix": "eb77898cf5f027f22984f192f830d830643933c851dddb2ab52be96890dbf2a9"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/dom.py",
+        "path_type": "hardlink",
+        "sha256": "db6c216f40bbd735c8b1a8b999a9a0eaacc11228a070122f683cb802cc376add",
+        "size_in_bytes": 8925,
+        "sha256_in_prefix": "db6c216f40bbd735c8b1a8b999a9a0eaacc11228a070122f683cb802cc376add"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/etree.py",
+        "path_type": "hardlink",
+        "sha256": "4a23a2e74387e31238d5db4bed32919e0f05cf75c81240e513b9a1f32d310cdd",
+        "size_in_bytes": 12836,
+        "sha256_in_prefix": "4a23a2e74387e31238d5db4bed32919e0f05cf75c81240e513b9a1f32d310cdd"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treebuilders/etree_lxml.py",
+        "path_type": "hardlink",
+        "sha256": "50d19858e54c8a00bfb7bed231a59b70968f01b8e4fd44cd03eff9df5ff9d878",
+        "size_in_bytes": 14766,
+        "sha256_in_prefix": "50d19858e54c8a00bfb7bed231a59b70968f01b8e4fd44cd03eff9df5ff9d878"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3813ed7354d4e661b2cb5f100ccc4a132604cf4c3115450d8f9bf4f978266216",
+        "size_in_bytes": 5719,
+        "sha256_in_prefix": "3813ed7354d4e661b2cb5f100ccc4a132604cf4c3115450d8f9bf4f978266216"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3dad94d69a3735f80970c3a6a6098fea2dfd21df668f1b069c928d3ee7748ad",
+        "size_in_bytes": 6106,
+        "sha256_in_prefix": "c3dad94d69a3735f80970c3a6a6098fea2dfd21df668f1b069c928d3ee7748ad"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/base.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "88d1bc163386ec20f1dd47e3f11b48e63e0e936aee82c876fa7763523c8d301f",
+        "size_in_bytes": 8735,
+        "sha256_in_prefix": "88d1bc163386ec20f1dd47e3f11b48e63e0e936aee82c876fa7763523c8d301f"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/dom.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "f2ceba0df52ba7959a0577f329a4659664ee31e54b4effc3b2fd1afb0a967c07",
+        "size_in_bytes": 3101,
+        "sha256_in_prefix": "f2ceba0df52ba7959a0577f329a4659664ee31e54b4effc3b2fd1afb0a967c07"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7c1ec8ccbeb79681695308699cd290f4a5ccac6c1a3d20905a72a62c0daa5b7",
+        "size_in_bytes": 5779,
+        "sha256_in_prefix": "f7c1ec8ccbeb79681695308699cd290f4a5ccac6c1a3d20905a72a62c0daa5b7"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/etree_lxml.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "f43e1ab47016e378f14afe50e6c35613cbb52891ca59d11f2c08618819761df2",
+        "size_in_bytes": 11276,
+        "sha256_in_prefix": "f43e1ab47016e378f14afe50e6c35613cbb52891ca59d11f2c08618819761df2"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/__pycache__/genshi.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecb9bd67647f8a4c9b81b0abce78e4aae2bfa616f471dfbd5d5603a39a9ad3a9",
+        "size_in_bytes": 3218,
+        "sha256_in_prefix": "ecb9bd67647f8a4c9b81b0abce78e4aae2bfa616f471dfbd5d5603a39a9ad3a9"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/base.py",
+        "path_type": "hardlink",
+        "sha256": "a2e88eb2e4b3bc8d0a8337563fc3e5c4869236cf5f6a585b8a29c011cfd42096",
+        "size_in_bytes": 7476,
+        "sha256_in_prefix": "a2e88eb2e4b3bc8d0a8337563fc3e5c4869236cf5f6a585b8a29c011cfd42096"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/dom.py",
+        "path_type": "hardlink",
+        "sha256": "107c8547c0fc958367c8353d971fc82a2815251c9e7141ae6b498e8bb1c1ba47",
+        "size_in_bytes": 1413,
+        "sha256_in_prefix": "107c8547c0fc958367c8353d971fc82a2815251c9e7141ae6b498e8bb1c1ba47"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/etree.py",
+        "path_type": "hardlink",
+        "sha256": "168ecdc29a242bc2354a2b20f374ca9c456fd9b38acf6d10889c81314193f1ca",
+        "size_in_bytes": 4551,
+        "sha256_in_prefix": "168ecdc29a242bc2354a2b20f374ca9c456fd9b38acf6d10889c81314193f1ca"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/etree_lxml.py",
+        "path_type": "hardlink",
+        "sha256": "abfcf7224535f2290da26ab2ccd982c983db963e3ce519c052482c663bfdbea4",
+        "size_in_bytes": 6357,
+        "sha256_in_prefix": "abfcf7224535f2290da26ab2ccd982c983db963e3ce519c052482c663bfdbea4"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/html5lib/treewalkers/genshi.py",
+        "path_type": "hardlink",
+        "sha256": "e03d8f1026799f764ddeabb78cc97dc98ec1f358e7400a414125657da22e61b0",
+        "size_in_bytes": 2309,
+        "sha256_in_prefix": "e03d8f1026799f764ddeabb78cc97dc98ec1f358e7400a414125657da22e61b0"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/parse.py",
+        "path_type": "hardlink",
+        "sha256": "46af966e33b6247ae1d57d9459115a3eb46cda9f809c9f14e052abc2fe8dacb2",
+        "size_in_bytes": 39023,
+        "sha256_in_prefix": "46af966e33b6247ae1d57d9459115a3eb46cda9f809c9f14e052abc2fe8dacb2"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/parse.py.SHA256SUM",
+        "path_type": "hardlink",
+        "sha256": "f806a2a8dfbda2dc3f5f4bc58ca91b29616f929ebc88b304f76ff023ef3ebe6d",
+        "size_in_bytes": 75,
+        "sha256_in_prefix": "f806a2a8dfbda2dc3f5f4bc58ca91b29616f929ebc88b304f76ff023ef3ebe6d"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/vendor.txt",
+        "path_type": "hardlink",
+        "sha256": "e85159c9e9ee9a05aa9e12e06c26b8cb32f81d535a4940c2d831cdc91e45cbac",
+        "size_in_bytes": 184,
+        "sha256_in_prefix": "e85159c9e9ee9a05aa9e12e06c26b8cb32f81d535a4940c2d831cdc91e45cbac"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/_vendor/vendor_install.sh",
+        "path_type": "hardlink",
+        "sha256": "dbac1588068978cd7a137aacaa67c1aa1552ace56db3cacf84f76b42cbbaf704",
+        "size_in_bytes": 664,
+        "sha256_in_prefix": "dbac1588068978cd7a137aacaa67c1aa1552ace56db3cacf84f76b42cbbaf704"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "24d4c688ce7fddb2ac1a5b6947d658133fc2fdbefebdf0e54d37500a2adb7727",
+        "size_in_bytes": 752,
+        "sha256_in_prefix": "24d4c688ce7fddb2ac1a5b6947d658133fc2fdbefebdf0e54d37500a2adb7727"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/css_sanitizer.py",
+        "path_type": "hardlink",
+        "sha256": "40533144a054312b8dbd8915a41d9644140eeb4f5e15b53ea7d3ff2e153a8ed3",
+        "size_in_bytes": 2526,
+        "sha256_in_prefix": "40533144a054312b8dbd8915a41d9644140eeb4f5e15b53ea7d3ff2e153a8ed3"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/html5lib_shim.py",
+        "path_type": "hardlink",
+        "sha256": "76667a3b1e83d450dc01234b5195be71894edb8e82c063d7bb357d1a600e1fbc",
+        "size_in_bytes": 25175,
+        "sha256_in_prefix": "76667a3b1e83d450dc01234b5195be71894edb8e82c063d7bb357d1a600e1fbc"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/linkifier.py",
+        "path_type": "hardlink",
+        "sha256": "1b5bd96489928db89ffc89aa000309fb8747724180d37295312d1600b6d5c3ce",
+        "size_in_bytes": 22331,
+        "sha256_in_prefix": "1b5bd96489928db89ffc89aa000309fb8747724180d37295312d1600b6d5c3ce"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/parse_shim.py",
+        "path_type": "hardlink",
+        "sha256": "5433ce74138a6ee0c471e295bdfa2081cafa037df66e472ae19f2332d3899404",
+        "size_in_bytes": 50,
+        "sha256_in_prefix": "5433ce74138a6ee0c471e295bdfa2081cafa037df66e472ae19f2332d3899404"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/sanitizer.py",
+        "path_type": "hardlink",
+        "sha256": "c89c9b7319d41d808d2b15ab3c45addd6ad08bedcb6cc72f3c580385c575d173",
+        "size_in_bytes": 22041,
+        "sha256_in_prefix": "c89c9b7319d41d808d2b15ab3c45addd6ad08bedcb6cc72f3c580385c575d173"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/bleach/six_shim.py",
+        "path_type": "hardlink",
+        "sha256": "e272efe56703c8261a604a5056e23d23fdedd3a54c501aff9f8089027e274304",
+        "size_in_bytes": 305,
+        "sha256_in_prefix": "e272efe56703c8261a604a5056e23d23fdedd3a54c501aff9f8089027e274304"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/gapple/miniconda3/pkgs/bleach-6.4.0-py314hca03da5_0",
+    "type": 1
+  }
+}

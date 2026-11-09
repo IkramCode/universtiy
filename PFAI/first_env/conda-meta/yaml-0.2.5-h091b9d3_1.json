@@ -1,0 +1,74 @@
+{
+  "name": "yaml",
+  "version": "0.2.5",
+  "build": "h091b9d3_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "yaml-0.2.5-h091b9d3_1.conda",
+  "md5": "2cd951a7e3efb608e740ad059c490d58",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/yaml-0.2.5-h091b9d3_1.conda",
+  "sha256": "73ec90384173b7cacfd17e9c9dbb6dd6b8c5b38cabb348bad756fd75ae7cb933",
+  "depends": [
+    "__osx >=12.1"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1787087937000,
+  "size": 65730,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/Users/gapple/miniconda3/pkgs/yaml-0.2.5-h091b9d3_1.conda",
+  "extracted_package_dir": "/Users/gapple/miniconda3/pkgs/yaml-0.2.5-h091b9d3_1",
+  "files": [
+    "include/yaml.h",
+    "lib/libyaml-0.2.dylib",
+    "lib/libyaml.a",
+    "lib/libyaml.dylib",
+    "lib/pkgconfig/yaml-0.1.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/yaml.h",
+        "path_type": "hardlink",
+        "sha256": "de39c9fc2b2c8584775e6d0dc0f13c8e778ceba47d419cff9d85465ca35d6954",
+        "size_in_bytes": 54439,
+        "sha256_in_prefix": "de39c9fc2b2c8584775e6d0dc0f13c8e778ceba47d419cff9d85465ca35d6954"
+      },
+      {
+        "_path": "lib/libyaml-0.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "84803170270958e4c70844c62a4794f45a4e579d898ee52a06489aec1f03b9ad",
+        "size_in_bytes": 141040,
+        "sha256_in_prefix": "84803170270958e4c70844c62a4794f45a4e579d898ee52a06489aec1f03b9ad"
+      },
+      {
+        "_path": "lib/libyaml.a",
+        "path_type": "hardlink",
+        "sha256": "396246bff01d9997a75f63fc56dc6a4aaa3f95de9a0307d62adb56cb291cc44c",
+        "size_in_bytes": 123776,
+        "sha256_in_prefix": "396246bff01d9997a75f63fc56dc6a4aaa3f95de9a0307d62adb56cb291cc44c"
+      },
+      {
+        "_path": "lib/libyaml.dylib",
+        "path_type": "softlink",
+        "sha256": "84803170270958e4c70844c62a4794f45a4e579d898ee52a06489aec1f03b9ad",
+        "size_in_bytes": 141040
+      },
+      {
+        "_path": "lib/pkgconfig/yaml-0.1.pc",
+        "prefix_placeholder": "/Users/ec2-user/croot/yaml_1787087887484/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "1b9d89729e23a32464c4372a9f94f1def491c711d329d6de6d17492db432c328",
+        "size_in_bytes": 463,
+        "sha256_in_prefix": "76d15fbb4356cdce12cce67da528eda0d39254bfed9264a7084259d2a9e6dbe7"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/gapple/miniconda3/pkgs/yaml-0.2.5-h091b9d3_1",
+    "type": 1
+  }
+}

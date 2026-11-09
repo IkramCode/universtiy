@@ -1,0 +1,323 @@
+{
+  "name": "ipython_genutils",
+  "version": "0.2.0",
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "subdir": "noarch",
+  "fn": "ipython_genutils-0.2.0-pyhd3eb1b0_1.conda",
+  "md5": "553832c0b872a28088a0001fa2ba3822",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/ipython_genutils-0.2.0-pyhd3eb1b0_1.conda",
+  "sha256": "57b26ed1992a45f5c3c1261001956cd31c05ffe7c57c452af07bc3417c57d143",
+  "depends": [
+    "python"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "BSD 3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1606773472000,
+  "size": 27534,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/Users/gapple/miniconda3/pkgs/ipython_genutils-0.2.0-pyhd3eb1b0_1.conda",
+  "extracted_package_dir": "/Users/gapple/miniconda3/pkgs/ipython_genutils-0.2.0-pyhd3eb1b0_1",
+  "files": [
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/COPYING.md",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/ipython_genutils-0.2.0.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/ipython_genutils/__init__.py",
+    "lib/python3.14/site-packages/ipython_genutils/_version.py",
+    "lib/python3.14/site-packages/ipython_genutils/encoding.py",
+    "lib/python3.14/site-packages/ipython_genutils/importstring.py",
+    "lib/python3.14/site-packages/ipython_genutils/ipstruct.py",
+    "lib/python3.14/site-packages/ipython_genutils/path.py",
+    "lib/python3.14/site-packages/ipython_genutils/py3compat.py",
+    "lib/python3.14/site-packages/ipython_genutils/tempdir.py",
+    "lib/python3.14/site-packages/ipython_genutils/testing/__init__.py",
+    "lib/python3.14/site-packages/ipython_genutils/testing/decorators.py",
+    "lib/python3.14/site-packages/ipython_genutils/tests/__init__.py",
+    "lib/python3.14/site-packages/ipython_genutils/tests/test_importstring.py",
+    "lib/python3.14/site-packages/ipython_genutils/tests/test_path.py",
+    "lib/python3.14/site-packages/ipython_genutils/tests/test_tempdir.py",
+    "lib/python3.14/site-packages/ipython_genutils/tests/test_text.py",
+    "lib/python3.14/site-packages/ipython_genutils/text.py",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/encoding.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/importstring.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/ipstruct.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/path.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/py3compat.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/tempdir.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/testing/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/testing/__pycache__/decorators.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_importstring.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_path.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_tempdir.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_text.cpython-314.pyc",
+    "lib/python3.14/site-packages/ipython_genutils/__pycache__/text.cpython-314.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/COPYING.md",
+        "path_type": "hardlink",
+        "sha256": "f09da6c0f4971485f6fbd6c630d0d6cdd012bfe128b2ebbd014de2f6c7c7e2a6",
+        "size_in_bytes": 2836,
+        "sha256_in_prefix": "f09da6c0f4971485f6fbd6c630d0d6cdd012bfe128b2ebbd014de2f6c7c7e2a6"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "56082718ba00e5acec78bc7034b86b8f53affffd99f356f5fe97070384623bab",
+        "size_in_bytes": 755,
+        "sha256_in_prefix": "56082718ba00e5acec78bc7034b86b8f53affffd99f356f5fe97070384623bab"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "27ebb9a1b16241810fdffb86355159912274a862b86e0e92610b021404edb92c",
+        "size_in_bytes": 3118,
+        "sha256_in_prefix": "27ebb9a1b16241810fdffb86355159912274a862b86e0e92610b021404edb92c"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "size_in_bytes": 110,
+        "sha256_in_prefix": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7486e382b6fe5df6a8bbac308931f017d5564c89c5884dabcb6e2406a53e53fa",
+        "size_in_bytes": 89,
+        "sha256_in_prefix": "7486e382b6fe5df6a8bbac308931f017d5564c89c5884dabcb6e2406a53e53fa"
+      },
+      {
+        "_path": "site-packages/ipython_genutils-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7c5f250735a16bb4097a3de339ce2009299071192db38db5d7c37ae94538cb6f",
+        "size_in_bytes": 17,
+        "sha256_in_prefix": "7c5f250735a16bb4097a3de339ce2009299071192db38db5d7c37ae94538cb6f"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2d24dcc80b4e90ceda1e45e42b90deaae69c885f5720188ca2e7a11751a33b63",
+        "size_in_bytes": 48,
+        "sha256_in_prefix": "2d24dcc80b4e90ceda1e45e42b90deaae69c885f5720188ca2e7a11751a33b63"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/_version.py",
+        "path_type": "hardlink",
+        "sha256": "eaecefd67921cc36d7db879190a040f5244a3a9aa8430d80ba6fa7c43fdd004a",
+        "size_in_bytes": 72,
+        "sha256_in_prefix": "eaecefd67921cc36d7db879190a040f5244a3a9aa8430d80ba6fa7c43fdd004a"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "0fc4b5bf42444a6196c2d1b211dd9462d34296bcf7537ba0b2c6b8fc6e28f48b",
+        "size_in_bytes": 2869,
+        "sha256_in_prefix": "0fc4b5bf42444a6196c2d1b211dd9462d34296bcf7537ba0b2c6b8fc6e28f48b"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/importstring.py",
+        "path_type": "hardlink",
+        "sha256": "98280bd1639f42a445f85e9a7be6c00220311f97d69b9c1fabcb9b3a92b1cf29",
+        "size_in_bytes": 1035,
+        "sha256_in_prefix": "98280bd1639f42a445f85e9a7be6c00220311f97d69b9c1fabcb9b3a92b1cf29"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/ipstruct.py",
+        "path_type": "hardlink",
+        "sha256": "8add019b3d8b364adf83f5d12eeb1e4f23ebf3dfc63bcf687bf7b5e714c06ed9",
+        "size_in_bytes": 11258,
+        "sha256_in_prefix": "8add019b3d8b364adf83f5d12eeb1e4f23ebf3dfc63bcf687bf7b5e714c06ed9"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/path.py",
+        "path_type": "hardlink",
+        "sha256": "d62c178baea316f56739fad258892b80503f9f3039d7ed303145d6644d85269a",
+        "size_in_bytes": 5386,
+        "sha256_in_prefix": "d62c178baea316f56739fad258892b80503f9f3039d7ed303145d6644d85269a"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/py3compat.py",
+        "path_type": "hardlink",
+        "sha256": "a117fc6d073e1a869f3d706ff42ab57a26c054ced7e1a438719dd12d1fa36b97",
+        "size_in_bytes": 10810,
+        "sha256_in_prefix": "a117fc6d073e1a869f3d706ff42ab57a26c054ced7e1a438719dd12d1fa36b97"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "1451751dd0614bf7c44cf5add90a519e031ca0580308a2a56baabc242a41e6d2",
+        "size_in_bytes": 4929,
+        "sha256_in_prefix": "1451751dd0614bf7c44cf5add90a519e031ca0580308a2a56baabc242a41e6d2"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/testing/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "ba354826f7e8e9f3070a56103e0ac366ef7f733966441800c9f9df6599e0b432",
+        "size_in_bytes": 10913,
+        "sha256_in_prefix": "ba354826f7e8e9f3070a56103e0ac366ef7f733966441800c9f9df6599e0b432"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/tests/test_importstring.py",
+        "path_type": "hardlink",
+        "sha256": "5a8ea5f3ba0b5c9810efa14614337dc609e6a73b74480b0365e49faf2dad60cb",
+        "size_in_bytes": 654,
+        "sha256_in_prefix": "5a8ea5f3ba0b5c9810efa14614337dc609e6a73b74480b0365e49faf2dad60cb"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/tests/test_path.py",
+        "path_type": "hardlink",
+        "sha256": "c291605ed78463e268ce10f4bab636b1132f7a9ff3a68a9a979ad3d6ccdafbe4",
+        "size_in_bytes": 3310,
+        "sha256_in_prefix": "c291605ed78463e268ce10f4bab636b1132f7a9ff3a68a9a979ad3d6ccdafbe4"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/tests/test_tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "1d4fdc162dd0de62a81b7398b5c5cace4248a948f48ae5d63cadb3dc9c6e219f",
+        "size_in_bytes": 668,
+        "sha256_in_prefix": "1d4fdc162dd0de62a81b7398b5c5cace4248a948f48ae5d63cadb3dc9c6e219f"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/tests/test_text.py",
+        "path_type": "hardlink",
+        "sha256": "e3eb9ab97847ea70f7e3893090864931fd7aae843954a62419452e35040573ab",
+        "size_in_bytes": 2043,
+        "sha256_in_prefix": "e3eb9ab97847ea70f7e3893090864931fd7aae843954a62419452e35040573ab"
+      },
+      {
+        "_path": "site-packages/ipython_genutils/text.py",
+        "path_type": "hardlink",
+        "sha256": "42032199fd7191e6175d34bfdff89f7895dc753aac4320bf750f1ed657b9b69c",
+        "size_in_bytes": 6929,
+        "sha256_in_prefix": "42032199fd7191e6175d34bfdff89f7895dc753aac4320bf750f1ed657b9b69c"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/_version.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/encoding.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 2201
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/importstring.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/ipstruct.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 11168
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/path.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 6683
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/py3compat.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 13823
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/tempdir.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 7088
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/testing/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/testing/__pycache__/decorators.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 12109
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_importstring.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1191
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_path.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8011
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_tempdir.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1891
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/tests/__pycache__/test_text.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 3601
+      },
+      {
+        "_path": "lib/python3.14/site-packages/ipython_genutils/__pycache__/text.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 8686
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/gapple/miniconda3/pkgs/ipython_genutils-0.2.0-pyhd3eb1b0_1",
+    "type": 1
+  }
+}

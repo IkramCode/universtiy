@@ -1,0 +1,218 @@
+{
+  "name": "pycparser",
+  "version": "3.0",
+  "build": "py314hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "pycparser-3.0-py314hca03da5_0.conda",
+  "md5": "cb3d46ca36be98d8c5c5deccd089d395",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pycparser-3.0-py314hca03da5_0.conda",
+  "sha256": "f197cf284bd52568585f5f28c7c4500e2639023e021bb5d1ab09af41e93ea100",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1774959699000,
+  "size": 145634,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/Users/gapple/miniconda3/pkgs/pycparser-3.0-py314hca03da5_0.conda",
+  "extracted_package_dir": "/Users/gapple/miniconda3/pkgs/pycparser-3.0-py314hca03da5_0",
+  "files": [
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/pycparser/__init__.py",
+    "lib/python3.14/site-packages/pycparser/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/_ast_gen.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/ast_transforms.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_ast.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_generator.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_lexer.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_parser.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/_ast_gen.py",
+    "lib/python3.14/site-packages/pycparser/_c_ast.cfg",
+    "lib/python3.14/site-packages/pycparser/ast_transforms.py",
+    "lib/python3.14/site-packages/pycparser/c_ast.py",
+    "lib/python3.14/site-packages/pycparser/c_generator.py",
+    "lib/python3.14/site-packages/pycparser/c_lexer.py",
+    "lib/python3.14/site-packages/pycparser/c_parser.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f547a60b0ab54cc2f242213d1f87960ad80df7dd5dfeb98d17a444d48bfb6b93",
+        "size_in_bytes": 8229,
+        "sha256_in_prefix": "f547a60b0ab54cc2f242213d1f87960ad80df7dd5dfeb98d17a444d48bfb6b93"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9d191adc1dcddf805232b4dd0ec91d6b1fc451e4a18dcb6cffb0aeeec808d835",
+        "size_in_bytes": 1667,
+        "sha256_in_prefix": "9d191adc1dcddf805232b4dd0ec91d6b1fc451e4a18dcb6cffb0aeeec808d835"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c14c80f0e6ae95195b7f032d990b2f367806af140702f90a72f466762ce5262d",
+        "size_in_bytes": 92,
+        "sha256_in_prefix": "c14c80f0e6ae95195b7f032d990b2f367806af140702f90a72f466762ce5262d"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c6d6422cd00d2d8f89f6fb42fc29a35924c31338da53ff58abca0d6fc83ece83",
+        "size_in_bytes": 84,
+        "sha256_in_prefix": "c6d6422cd00d2d8f89f6fb42fc29a35924c31338da53ff58abca0d6fc83ece83"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1",
+        "size_in_bytes": 1543,
+        "sha256_in_prefix": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser-3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "73e94f712ef82fff0aa07ec813a3d0179a1fca2ad140d57856191b48520f7963",
+        "size_in_bytes": 10,
+        "sha256_in_prefix": "73e94f712ef82fff0aa07ec813a3d0179a1fca2ad140d57856191b48520f7963"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a6156247202e52682a13890d99a0aaa66e56544048bf351215aa41bf85d7df1a",
+        "size_in_bytes": 2829,
+        "sha256_in_prefix": "a6156247202e52682a13890d99a0aaa66e56544048bf351215aa41bf85d7df1a"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "6daecd0a8e3b6ad66aca600ee9fe0bb1bb3f7efd48979c723379920dfb0c664e",
+        "size_in_bytes": 2864,
+        "sha256_in_prefix": "6daecd0a8e3b6ad66aca600ee9fe0bb1bb3f7efd48979c723379920dfb0c664e"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/_ast_gen.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a2f9db6a03f8ff531d7e4c04acc3c2d59fc3f664a9b8483dc83f87e18764d2b",
+        "size_in_bytes": 14431,
+        "sha256_in_prefix": "0a2f9db6a03f8ff531d7e4c04acc3c2d59fc3f664a9b8483dc83f87e18764d2b"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/ast_transforms.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd26aef3930521a073f1e0bc70cd7b9020571ef8f82d265eaea0d3c814ee404d",
+        "size_in_bytes": 6735,
+        "sha256_in_prefix": "bd26aef3930521a073f1e0bc70cd7b9020571ef8f82d265eaea0d3c814ee404d"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/c_ast.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8eff47b273a2e314817095a6a840a16fb0e1160fc9a151fbf02cf5dc5b9ff85",
+        "size_in_bytes": 54612,
+        "sha256_in_prefix": "b8eff47b273a2e314817095a6a840a16fb0e1160fc9a151fbf02cf5dc5b9ff85"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/c_generator.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a22ad586e18763768068d50831c203dfd87feca9ebb91e3e8c00569d01566a1",
+        "size_in_bytes": 46296,
+        "sha256_in_prefix": "2a22ad586e18763768068d50831c203dfd87feca9ebb91e3e8c00569d01566a1"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/c_lexer.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "49e4f10ced6ba34c04ada4568c8f6c43e69d0507ba7b26fc463b4ea53b8b81e3",
+        "size_in_bytes": 27217,
+        "sha256_in_prefix": "49e4f10ced6ba34c04ada4568c8f6c43e69d0507ba7b26fc463b4ea53b8b81e3"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/__pycache__/c_parser.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "72a33c2a7f11d39a3c48b30476345e6749352dabd346c7f886dd390552d89949",
+        "size_in_bytes": 119279,
+        "sha256_in_prefix": "72a33c2a7f11d39a3c48b30476345e6749352dabd346c7f886dd390552d89949"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/_ast_gen.py",
+        "path_type": "hardlink",
+        "sha256": "1311f9626e2993b7503c422442bf512629b97deced7414304813efa6f13ee413",
+        "size_in_bytes": 11292,
+        "sha256_in_prefix": "1311f9626e2993b7503c422442bf512629b97deced7414304813efa6f13ee413"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/_c_ast.cfg",
+        "path_type": "hardlink",
+        "sha256": "95de5ecc4f72cc82452150147f0edecc94a5322e275ca342cdf9aa8cec904cda",
+        "size_in_bytes": 4255,
+        "sha256_in_prefix": "95de5ecc4f72cc82452150147f0edecc94a5322e275ca342cdf9aa8cec904cda"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/ast_transforms.py",
+        "path_type": "hardlink",
+        "sha256": "5f032c6ab73968375d35680888a9b8fa33963116226fdeb2350528d3fbb6f160",
+        "size_in_bytes": 5899,
+        "sha256_in_prefix": "5f032c6ab73968375d35680888a9b8fa33963116226fdeb2350528d3fbb6f160"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/c_ast.py",
+        "path_type": "hardlink",
+        "sha256": "bb091c6561df5c3408c3a583bc22f5ee258cffed11f94443a843263e35cb3807",
+        "size_in_bytes": 32954,
+        "sha256_in_prefix": "bb091c6561df5c3408c3a583bc22f5ee258cffed11f94443a843263e35cb3807"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/c_generator.py",
+        "path_type": "hardlink",
+        "sha256": "4552893e0bafd82be8bc71d27d092a8a672452bf70194f4fa1fc421a3db9d500",
+        "size_in_bytes": 20661,
+        "sha256_in_prefix": "4552893e0bafd82be8bc71d27d092a8a672452bf70194f4fa1fc421a3db9d500"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/c_lexer.py",
+        "path_type": "hardlink",
+        "sha256": "075568a9b6213d690e2495827a6e0e638ce3d08c6b3e4b4165915ed98f3b9148",
+        "size_in_bytes": 25155,
+        "sha256_in_prefix": "075568a9b6213d690e2495827a6e0e638ce3d08c6b3e4b4165915ed98f3b9148"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pycparser/c_parser.py",
+        "path_type": "hardlink",
+        "sha256": "dc504a18b8e3942deff1a7f00ff727311ebb226a18232ef76b858a411ea15fb8",
+        "size_in_bytes": 89798,
+        "sha256_in_prefix": "dc504a18b8e3942deff1a7f00ff727311ebb226a18232ef76b858a411ea15fb8"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/gapple/miniconda3/pkgs/pycparser-3.0-py314hca03da5_0",
+    "type": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "typing-extensions",
+  "version": "4.16.0",
+  "build": "py314hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "typing-extensions-4.16.0-py314hca03da5_0.conda",
+  "md5": "16ec60d91e486f480d092ff263ba659b",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/typing-extensions-4.16.0-py314hca03da5_0.conda",
+  "sha256": "e1c19bace5ae771fd576f8989aba40e88076548d32b48d80e2476d08498a1888",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "typing_extensions 4.16.0 py314hca03da5_0"
+  ],
+  "constrains": [],
+  "license": "PSF-2.0",
+  "timestamp": 1784101034000,
+  "size": 9565,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/Users/gapple/miniconda3/pkgs/typing-extensions-4.16.0-py314hca03da5_0.conda",
+  "extracted_package_dir": "/Users/gapple/miniconda3/pkgs/typing-extensions-4.16.0-py314hca03da5_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/Users/gapple/miniconda3/pkgs/typing-extensions-4.16.0-py314hca03da5_0",
+    "type": 1
+  }
+}

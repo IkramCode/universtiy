@@ -1,0 +1,31 @@
+MUHAMMAD IKRAM UL HAQ
+L1F24BSCS0309
+
+STEP        FRONTIER                                                                            EXPANDED
+1           (arad,0)
+
+2           (arad->zerind,75),(arad->sibiu,140),(arad->timiaora,118)                            arad
+
+3           (arad->zerind->oradea,146),(arad->sibiu,140),(arad->timiaora,118)                   zerind
+
+4           (arad->zerind->oradea,146),(arad->sibiu,140),(arad->timiaora->lugoj,229)            timiaora 
+
+5           (arad->zerind->oradea,146),(arad->timiaora->lugoj,229),                             sibiu
+            (arad->sibiu->fagaras,239),(arad->sibiu->rimnicu vllcea,220)
+
+6           (arad->zerind->oradea->sibiu,297),(arad->timiaora->lugoj,229),                     oradea 
+            (arad->sibiu->fagaras,239),(arad->sibiu->rimnicu vllcea,220)
+
+7           (arad->zerind->oradea->sibiu,297),(arad->timiaora->lugoj,229),                      rimnica-vllcea 
+            (arad->sibiu->fagaras,239),(arad->sibiu->rimnicu-vllcea->pitesti,317),
+            (arad->sibiu->rimnicu-vllcea->cralova,366)
+
+8           (arad->zerind->oradea->sibiu,297),(arad->timiaora->lugoj->mehadla,299),             lugoj 
+            (arad->sibiu->fagaras,239),(arad->sibiu->rimnicu-vllcea->pitesti,317),
+            (arad->sibiu->rimnicu-vllcea->cralova,366)
+
+9           (arad->zerind->oradea->sibiu,297),(arad->timiaora->lugoj->mehadla,299),             fagaras 
+            (arad->sibiu->fagaras->bucharest,450),(arad->sibiu->rimnicu-vllcea->pitesti,317),
+            (arad->sibiu->rimnicu-vllcea->cralova,366)
+
+PATH FOUND FROM GREEDY SEARCH (ARAD->SIBIU->FAGARAS->BUCHAREST, 450)

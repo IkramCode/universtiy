@@ -1,0 +1,64 @@
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.stage {
+  background: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 480px;
+  border-bottom: 12px solid var(--ink);
+  padding-bottom: 0;
+}
+.stage .vessel {
+  transform: scale(2);
+  transform-origin: bottom center;
+  margin: 0 -34px 0 0;
+}
+.crumb {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+.price {
+  font: 1.6rem var(--serif);
+  margin: 12px 0 20px;
+}
+h3 {
+  margin: 28px 0 10px;
+}
+.sw {
+  display: flex;
+  gap: 12px;
+}
+.sw span {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.small {
+  font-size: 0.9rem;
+  margin: 10px 0 28px;
+}
+dl {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 12px 20px;
+  margin-top: 40px;
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
+dt {
+  font-weight: 700;
+}
+@media (max-width: 800px) {
+  .split {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .stage {
+    min-height: 360px;
+  }
+}

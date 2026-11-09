@@ -1,0 +1,123 @@
+{
+  "name": "rfc3339-validator",
+  "version": "0.1.4",
+  "build": "py314hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "subdir": "osx-arm64",
+  "fn": "rfc3339-validator-0.1.4-py314hca03da5_0.conda",
+  "md5": "5cad026d9837956a1bce63b928f78595",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/rfc3339-validator-0.1.4-py314hca03da5_0.conda",
+  "sha256": "2f76351f62a10663c28a9d9571f9fdf76d53a25c19e315b9a7ef9d58a43989e1",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "six"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1764775613000,
+  "size": 9747,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/Users/gapple/miniconda3/pkgs/rfc3339-validator-0.1.4-py314hca03da5_0.conda",
+  "extracted_package_dir": "/Users/gapple/miniconda3/pkgs/rfc3339-validator-0.1.4-py314hca03da5_0",
+  "files": [
+    "lib/python3.14/site-packages/__pycache__/rfc3339_validator.cpython-314.pyc",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/METADATA",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/RECORD",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/WHEEL",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/licenses/AUTHORS.rst",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/rfc3339_validator.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.14/site-packages/__pycache__/rfc3339_validator.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "5abf272da3f53267f50fada746778fd1cb977197f711ec2ca059eb65ff1abb21",
+        "size_in_bytes": 1555,
+        "sha256_in_prefix": "5abf272da3f53267f50fada746778fd1cb977197f711ec2ca059eb65ff1abb21"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9d6d6c7fbf14b4cd7f2d5a824e37e0ca744897c0281b16080fd04a21cc301256",
+        "size_in_bytes": 1815,
+        "sha256_in_prefix": "9d6d6c7fbf14b4cd7f2d5a824e37e0ca744897c0281b16080fd04a21cc301256"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8fd5ca9a62425c7b8cc9e516888d34e6a699c926cb2595dffd90e240d564b8d7",
+        "size_in_bytes": 990,
+        "sha256_in_prefix": "8fd5ca9a62425c7b8cc9e516888d34e6a699c926cb2595dffd90e240d564b8d7"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
+        "size_in_bytes": 109,
+        "sha256_in_prefix": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7a0b52a381081c84afd1c2798e409182fd59bbdb367bd3f05984c77d2d7ecee1",
+        "size_in_bytes": 96,
+        "sha256_in_prefix": "7a0b52a381081c84afd1c2798e409182fd59bbdb367bd3f05984c77d2d7ecee1"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/licenses/AUTHORS.rst",
+        "path_type": "hardlink",
+        "sha256": "42ec0c4be6eb89016e3c756660ff474d2924225d0723c82720285ede0a46e5f3",
+        "size_in_bytes": 162,
+        "sha256_in_prefix": "42ec0c4be6eb89016e3c756660ff474d2924225d0723c82720285ede0a46e5f3"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5ba1a4f03626ccca6dcbf53a554545e4f776a335bfdaa233ec3bfe9bb7fac15d",
+        "size_in_bytes": 1074,
+        "sha256_in_prefix": "5ba1a4f03626ccca6dcbf53a554545e4f776a335bfdaa233ec3bfe9bb7fac15d"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator-0.1.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f9907095b1d1543c413f1e70b4154500e1c7224b439256be4384314115309d1d",
+        "size_in_bytes": 18,
+        "sha256_in_prefix": "f9907095b1d1543c413f1e70b4154500e1c7224b439256be4384314115309d1d"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/rfc3339_validator.py",
+        "path_type": "hardlink",
+        "sha256": "c220cb9495da5215a53ab173f695060294df2d1042a9cbaaf0cc622bcba09d6e",
+        "size_in_bytes": 1110,
+        "sha256_in_prefix": "c220cb9495da5215a53ab173f695060294df2d1042a9cbaaf0cc622bcba09d6e"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/gapple/miniconda3/pkgs/rfc3339-validator-0.1.4-py314hca03da5_0",
+    "type": 1
+  }
+}
