@@ -8,16 +8,24 @@
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-.chips a {
+.chips .chip {
   padding: 8px 20px;
   border: 2px solid var(--ink);
   border-radius: 999px;
-  text-decoration: none;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
   font-weight: 500;
+  cursor: pointer;
 }
-.chips a.on {
+.chips .chip.on {
   background: var(--ink);
   color: var(--paper);
+}
+.count {
+  margin: -20px 0 28px;
+  font-size: 0.95rem;
+  color: #4a5a68;
 }
 .list {
   display: grid;

@@ -45,6 +45,24 @@ form .btn {
   font-weight: 700;
   justify-self: start;
 }
+.err {
+  color: #8a2c2c;
+  font-size: 0.9rem;
+}
+.err:empty {
+  display: none;
+}
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border-color: #8a2c2c;
+}
+.form-status {
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+.form-status.ok {
+  color: #2f5d3a;
+}
 @media (max-width: 800px) {
   .two {
     grid-template-columns: 1fr;

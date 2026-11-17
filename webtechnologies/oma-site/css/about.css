@@ -47,3 +47,19 @@
   background: var(--paper);
   color: var(--ink);
 }
+.status {
+  display: inline-block;
+  padding: 2px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  vertical-align: 2px;
+}
+.status.open {
+  background: var(--celadon);
+  color: var(--ink);
+}
+.status.shut {
+  background: rgba(237, 239, 234, 0.18);
+  color: var(--paper);
+}

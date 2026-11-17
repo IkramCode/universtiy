@@ -5,27 +5,44 @@
 .faq {
   max-width: 760px;
 }
-details {
+.acc-item {
   border-top: 2px solid var(--ink);
-  padding: 20px 0;
 }
-details:last-child {
+.acc-item:last-child {
   border-bottom: 2px solid var(--ink);
 }
-summary {
-  font: 1.3rem var(--serif);
-  cursor: pointer;
-  list-style: none;
+.acc-btn {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  font: 1.3rem var(--serif);
+  text-align: left;
+  cursor: pointer;
 }
-summary::after {
+.acc-btn::after {
   content: "+";
   font-family: var(--sans);
+  font-size: 1.4rem;
 }
-details[open] summary::after {
+.acc-btn[aria-expanded="true"]::after {
   content: "\2212";
 }
-details p {
-  margin-top: 12px;
+.acc-panel {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+.acc-panel p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .acc-panel {
+    transition: none;
+  }
 }

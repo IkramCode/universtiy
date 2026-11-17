@@ -33,10 +33,17 @@ h3 {
   display: flex;
   gap: 12px;
 }
-.sw span {
+.sw button {
   width: 44px;
   height: 44px;
+  border: 0;
+  padding: 0;
   border-radius: 50%;
+  cursor: pointer;
+}
+.sw button[aria-pressed="true"] {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
 }
 .small {
   font-size: 0.9rem;

@@ -247,5 +247,24 @@ document.getElementById("submit").onclick = ()=>{
   document.getElementById("show-text").textContent= username
 }
 
+document.getElementById("bulb").onclick = ()=>{
+  document.getElementById("show-bulb").style.color = 'yellow'  
+}
+
+// onchange
+// onclick: it works when element is clicked
+// dblclick: fires when elemtn is double clicked
+// onmouseover: works when someone drag mouse on a button/element
+// onmousedown: works when mouse button is hold
+// onmouseup: works when mouse release a button
+// onmouseout: works when mouse leaves a element
+// mousemove: works when mouse move over an element
+// onkeydown: when a key is pressed
+// onkeyup: when key is releasedkk
+// onload: when browser has finished loading the page
+// onfocus: works when an element get focused
+// onblur: works when element loose the focus
+// onresize: 
+// oncontextmenu: works when rightlcick is pressed
 
 
